@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>UK Immigration Chatbot</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      <style>
+         body {
+         font-family: 'Arial', sans-serif;
+         margin: 0;
+         padding: 0;
+         background-color: #f5f5f5;
+         }
+         header {
+         background-color: #34495e;
+         color: #ecf0f1;
+         text-align: center;
+         padding: 20px 0;
+         font-size: 2em;
+         }
+         nav {
+         display: flex;
+         justify-content: center;
+         background-color: #2c3e50;
+         padding: 10px 0;
+         }
+         nav a {
+         color: #ecf0f1;
+         text-decoration: none;
+         margin: 0 15px;
+         padding: 5px 10px;
+         border-radius: 5px;
+         transition: background-color 0.3s ease;
+         }
+         nav a:hover {
+         background-color: #34495e;
+         }
+         .chatbox {
+         max-width: 600px;
+         margin: 40px auto;
+         border: 1px solid #34495e;
+         border-radius: 10px;
+         overflow: hidden;
+         background-color: #fff;
+         }
+         .chat-header {
+         background-color: #34495e;
+         color: #ecf0f1;
+         padding: 15px;
+         font-size: 1.5em;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         }
+         .chat-header i {
+         margin-right: 10px;
+         font-size: 24px;
+         }
+         .chat-content {
+         padding: 20px;
+         height: 300px;
+         overflow-y: auto;
+         }
+         .input-section {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 10px 20px;
+         border-top: 1px solid #d3d3d3;
+         background-color: #ecf0f1;
+         }
+         .input-section input {
+         width: 80%;
+         padding: 10px;
+         border: 1px solid #bdc3c7;
+         border-radius: 5px;
+         font-size: 1em;
+         }
+         .input-section button {
+         padding: 10px 20px;
+         border: none;
+         border-radius: 5px;
+         background-color: #2ecc71;
+         color: #fff;
+         font-size: 1em;
+         cursor: pointer;
+         transition: background-color 0.3s ease;
+         }
+         .input-section button:hover {
+         background-color: #27ae60;
+         }
+         .user-message, .bot-message {
+         padding: 10px;
+         margin: 10px;
+         border-radius: 5px;
+         width: 80%;
+         clear: both;
+         }
+         .user-message {
+         background-color: #d71717;
+         margin-left: 10px;
+         float: left;
+         }
+         .bot-message {
+         padding: 10px;
+         margin: 10px;
+         border-radius: 5px;
+         width: 80%;
+         float: right;
+         display: flex;
+         flex-direction: column; 
+         align-items: flex-end; 
+         }
+         .bot-message > div {
+         margin: 5px 0;
+         }
+         .message.bot > div:first-child {
+         background-color: #d9d9d9;
+         padding: 10px;
+         border-radius: 20px;
+         max-width: 80%;
+         line-height: 1.5;
+         position: relative;
+         }
+         .bot-feedback i {
+         margin: 0 5px;
+         cursor: pointer;
+         }
+         .message {
+         display: inline-block;
+         padding: 10px;
+         border-radius: 20px;
+         margin: 5px;
+         line-height: 1.5;
+         position: relative;
+         max-width: 80%;
+         }
+         .user {
+         background-color: #2ecc71;
+         color: #ffffff;
+         align-self: flex-end;
+         margin-right: 10px;
+         }
+         .chat-content {
+         display: flex;
+         flex-direction: column;
+         padding: 20px;
+         height: 300px;
+         overflow-y: auto;
+         }
+         .bot-feedback i.fa-thumbs-up {
+         color: #4CAF50;  /* green color for thumbs up */
+         cursor: pointer; /* change cursor to hand on hover */
+         }
+         .bot-feedback i.fa-thumbs-down {
+         color: #FF5252;  /* red color for thumbs down */
+         cursor: pointer; /* change cursor to hand on hover */
+         }
+      </style>
+   </head>
+   <body>
+      <header>
+         UK Immigration Chatbot
+      </header>
+      <div class="chatbox">
+         <div class="chat-header">
+            <i class="fas fa-comments"></i> Chat with our bot
+         </div>
+         <div class="chat-content" id="chat-content">
+            <!-- Chat messages will appear here -->
+         </div>
+         <div class="input-section">
+            <input type="text" id="user-input" placeholder="Type your question...">
+            <button onclick="sendMessage()">
+            <i class="fas fa-paper-plane"></i>
+            </button>
+         </div>
+      </div>
+      <script>
+         // Function to send a user's message and fetch a response from the bot/server
+         function sendMessage() {
+             // Reference the chat content and user input elements
+             const chatContent = document.getElementById('chat-content');
+             const userInput = document.getElementById('user-input');
+         
+             // Ensure the user has entered a non-empty message
+             if (userInput.value.trim() !== "") {
+                 // Display the user's message in the chat
+                 displayMessage(userInput.value, 'user');
+                 
+                 // Send the user's message to the server to get a bot response
+                 fetch('http://127.0.0.1:5000/predict', {
+                     method: 'POST',
+                     headers: {
+                         'Content-Type': 'application/json'
+                     },
+                     body: JSON.stringify({ message: userInput.value })
+                 })
+                 .then(response => response.json())
+                 .then(data => {
+                     // Display the bot's response in the chat
+                     displayMessage(data.response, 'bot');
+                 });
+         
+                 // Reset the user input box
+                 userInput.value = '';
+         
+                 // Scroll to display the latest message
+                 chatContent.scrollTop = chatContent.scrollHeight;
+             }
+         }
+         
+         // Function to display messages in the chat content
+         function displayMessage(message, sender) {
+             const chatContent = document.getElementById('chat-content');
+         
+             // Display the bot's message
+             if (sender === 'bot') {
+                 // Create a message container for the bot's response
+                 const botMessageBubble = document.createElement('div');
+                 botMessageBubble.className = 'message bot';
+         
+                 // Set the bot's message
+                 const botMessageText = document.createElement('div');
+                 botMessageText.textContent = message;
+                 botMessageBubble.appendChild(botMessageText);
+         
+                 // Add thumbs up and thumbs down icons for feedback on bot's response
+                 const feedbackDiv = document.createElement('div');
+                 feedbackDiv.classList.add('bot-feedback');
+                 feedbackDiv.innerHTML = '<i class="fas fa-thumbs-up"></i> <i class="fas fa-thumbs-down"></i>';
+                 botMessageBubble.appendChild(feedbackDiv);
+         
+                 chatContent.appendChild(botMessageBubble);
+             } 
+             // Display the user's message
+             else if (sender === 'user') {
+                 // Create a message container for the user's message
+                 const userMessageBubble = document.createElement('div');
+                 userMessageBubble.className = 'message user';
+                 userMessageBubble.textContent = message;
+                 chatContent.appendChild(userMessageBubble);
+             }
+         
+             // Scroll to display the latest message
+             chatContent.scrollTop = chatContent.scrollHeight;
+         }
+         
+         // Add event listeners to handle feedback on the bot's response
+         document.addEventListener('click', function(e) {
+             // Handle thumbs down click - prompt for a rephrase
+             if (e.target && e.target.classList.contains('fa-thumbs-down')) {
+                 let botMessage = "I'm sorry for the confusion. Could you please rephrase your question?";
+                 displayMessage(botMessage, 'bot');
+             }
+             // Handle thumbs up click - show appreciation
+             else if (e.target && e.target.classList.contains('fa-thumbs-up')) {
+                 let botMessage = "I'm glad I was able to answer your question.";
+                 displayMessage(botMessage, 'bot');
+             }
+         });
+         
+      </script>
+   </body>
+</html>
