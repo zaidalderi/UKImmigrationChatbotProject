@@ -1,0 +1,999 @@
+{
+    "intents": [
+        {
+            "patterns": [
+                "What are the requirements to apply for a student visa?",
+                "What do I need to apply for a student visa?",
+                "Can you tell me the requirements for a student visa application?",
+                "What must I have to apply for a student visa?",
+                "What is required to apply for a student visa?",
+                "What documents and qualifications are needed for a student visa?",
+                "What's the criteria to apply for a student visa in the UK?",
+                "Can you list down the necessities for a student visa application?",
+                "I want to understand the prerequisites for applying for a student visa. Can you help?",
+                "Before applying for a student visa, what are the things I should be prepared with?"
+            ],
+            "tag": "StudentVisa_ApplicationRequirements",
+            "responses": [
+                "You can apply for a Student visa to study in the UK if you’re 16 or over and you: have been offered a place on a course by a licensed student sponsor have enough money to support yourself and pay for your course - the amount will vary depending on your circumstances can speak, read, write and understand English have consent from your parents if you’re 16 or 17 - you’ll need evidence of this when you apply If you’re 16 or 17 and you want to study at an independent school in the UK, you may be eligible for a Child Student visa instead. This visa has replaced the Tier 4 (General) student visa."
+            ]
+        },
+        {
+            "patterns": [
+                "What if I or my family are from the EU?",
+                "Does being from the EU affect my student visa application?",
+                "Are there any special considerations for EU applicants?",
+                "How does my EU citizenship impact my student visa application?",
+                "What if I am from the EU?",
+                "Are there different procedures for EU nationals applying for a student visa?",
+                "I'm an EU resident, does that change the student visa application for me?",
+                "Is the student visa process the same for EU and non-EU applicants?",
+                "Given that I'm from the European Union, are there any exceptions in the visa process?",
+                "Do EU nationals have a separate pathway for student visa applications?"
+            ],
+            "responses": [
+                "If you or your family member started living in the UK by 31 December 2020, you may be able to apply to the free EU Settlement Scheme. The deadline to apply was 30 June 2021 for most people. You can still apply if either: you have a later deadline - for example, you’re joining a family member in the UK you have ‘reasonable grounds’ for being unable to apply by 30 June 2021 - for example, you had an illness or were the victim of domestic abuse Check if you can still apply to the EU Settlement Scheme ."
+            ],
+            "tag": "StudentVisa_EUApplicant"
+        },
+        {
+            "patterns": [
+                "When should I apply for a student visa?",
+                "What's the best time to apply for a student visa?",
+                "How much in advance should I apply for my student visa?",
+                "When can I start applying for a student visa?",
+                "How early can I submit my application for a student visa?",
+                "What's the earliest I can begin my student visa application process?",
+                "How long before my studies should I start the visa process?",
+                "When's the recommended time to send in my student visa application?",
+                "If I'm planning to study next year, when should I apply for the visa?"
+            ],
+            "responses": [
+                "When you can apply depends on whether you’re applying from inside or outside the UK."
+            ],
+            "tag": "StudentVisa_ApplicationTiming"
+        },
+        {
+            "patterns": [
+                "When should I apply for a student visa if I'm outside the UK?",
+                "What's the best time to apply for a student visa from outside the UK?",
+                "How much in advance should I apply for my student visa if I'm not in the UK?",
+                "When can I start applying for a student visa from overseas?",
+                "If I'm abroad, how soon should I begin my student visa application process for the UK?",
+                "What's the timeline to apply for a UK student visa if I'm not currently in the UK?",
+                "Being outside the UK, when's the optimal time to start my student visa application?",
+                "How early should I initiate my UK student visa procedure from a foreign country?",
+                "I'm not residing in the UK right now; when should I consider applying for the student visa?"
+            ],
+            "responses": [
+                "The earliest you can apply for a visa is 6 months before you start your course. You’ll usually get a decision on your visa within 3 weeks."
+            ],
+            "tag": "StudentVisa_ApplicationTimingOutsideUK"
+        },
+        {
+            "patterns": [
+                "When should I apply for a student visa if I'm inside the UK?",
+                "What's the best time to apply for a student visa from within the UK?",
+                "How much in advance should I apply for my student visa if I'm in the UK?",
+                "When can I start applying for a student visa from within the UK?",
+                "If I'm already in the UK, when should I begin the student visa application process?",
+                "How early do I need to apply for a student visa if I'm currently residing in the UK?",
+                "Being in the UK already, what's the ideal timeline for a student visa application?",
+                "When's the best period to start my student visa process if I'm within the UK borders?",
+                "I'm in the UK at the moment; when's the right time to apply for the student visa?"
+            ],
+            "responses": [
+                "The earliest you can apply is 3 months before your course starts. You must apply before your current visa expires. Your new course must begin within 28 days of your current visa expiring. You’ll usually get a decision within 8 weeks."
+            ],
+            "tag": "StudentVisa_ApplicationTimingInsideUK"
+        },
+        {
+            "patterns": [
+                "How long can I stay in the UK on a student visa?",
+                "What is the duration of a student visa?",
+                "Until when is my student visa valid?",
+                "How long am I allowed to stay in the UK for my studies?",
+                "For how many years is the student visa in the UK valid?",
+                "What's the maximum time I can reside in the UK with a student visa?",
+                "Can you tell me the length of time a student visa covers in the UK?",
+                "Up to how long can I study in the UK on a single student visa?",
+                "What's the typical validity period of a UK student visa?"
+            ],
+            "responses": [
+                "How long you can stay depends on the length of your course and what study you’ve already completed in the UK. If you’re 18 or over and your course is at degree level, you can usually stay in the UK for up to 5 years. If it’s below degree level, you can usually stay in the UK for up to 2 years. Read the guidance to find out exactly how long you can stay ."
+            ],
+            "tag": "StudentVisa_DurationOfStay"
+        },
+        {
+            "patterns": [
+                "Can I extend my stay in the UK?",
+                "What do I need to do to stay longer in the UK?",
+                "How can I prolong my student visa?",
+                "What's the process to extend my student visa?",
+                "Can I stay longer in the UK?",
+                "Is it possible to extend my student visa in the UK?",
+                "How do I go about increasing the duration of my student visa?",
+                "What steps should I take if I want to extend my stay as a student?",
+                "I want to study longer; can I extend my student visa?",
+                "What's the procedure to get an extension on my current student visa?"
+            ],            
+            "responses": [
+                "You may be able to: extend your visa if you’re eligible, for example to continue your studies in the UK switch to a Student visa from another visa if you’re already in the UK switch to a Graduate visa to stay in the UK for at least 2 years after successfully completing your course"
+            ],
+            "tag": "StudentVisa_ExtendStay"
+        },
+        {
+            "patterns": [
+                "When can I travel to the UK?",
+                "What's the earliest I can arrive in the UK on my student visa?",
+                "How soon can I enter the UK before my course starts?",
+                "When should I plan to travel to the UK for my studies?",
+                "When can I come to the UK?",
+                "When can somone enter the UK?",
+                "How early can I come to the UK before my study program begins?",
+                "Is there a specific timeframe I should adhere to when traveling to the UK on a student visa?",
+                "When is it advisable to arrive in the UK in relation to my course's start date?",
+                "What's the recommended time to travel to the UK before my academic session starts?",
+                "I don't want to be late; when's the best time to enter the UK before my classes start?"
+            ],
+            "responses": [
+                "You can arrive before your course starts. This can be either: up to 1 week before, if your course lasts 6 months or less up to 1 month before, if your course lasts more than 6 months You must not travel to the UK before the start date given on your visa, no matter when your course starts."
+            ],
+            "tag": "StudentVisa_TravelTiming"
+        },
+        {
+            "patterns": [
+                "How much is the visa fee?",
+                "What is the cost for applying for a student visa?",
+                "What is the fee for a student visa application?",
+                "Tell me about the charges for student visa application.",
+                "What is the application fee for the student visa?",
+                "How much does it cost to apply for a student visa?",
+                "Can you inform me about the current student visa fee?",
+                "What will I need to pay for a student visa application?",
+                "How much will it set me back to get a student visa?",
+                "How much do I need to pay to apply for a student visa?"
+            ],
+            "responses": [
+                "It costs: £363 to apply for a Student visa from outside the UK £490 to extend or switch to a Student visa from inside the UK You must pay the visa fee for each person that joins you."
+            ],
+            "tag": "StudentVisa_fees"
+        },
+        {
+            "patterns": [
+                "What is the health surcharge fee?",
+                "Can you tell me about the healthcare surcharge for the student visa?",
+                "How much do I need to pay for the health surcharge?",
+                "What is the cost of the healthcare surcharge for students?",
+                "How much do I need to pay for the health surcharge?",
+                "Can you clarify the healthcare surcharge fee for students?",
+                "Is there a separate fee for the health service when applying for a student visa?",
+                "What's the latest health surcharge amount for student visa applicants?",
+                "Could you provide details on the student visa health surcharge?",
+                "How is the healthcare surcharge calculated for students?"
+            ],
+            "responses": [
+                "You’ll also have to pay the healthcare surcharge as part of your application. How much you pay depends on how long your visa lasts. Check how much you’ll have to pay before you apply."
+            ],
+            "tag": "StudentVisa_HealthSurcharge"
+        },
+        {
+            "patterns": [
+                "What am I allowed to do in terms of work and study on a student visa?",
+                "Can I work while studying on a student visa?",
+                "What kind of work can I do while on a student visa?",
+                "What are the restrictions on work and study under a student visa?",
+                "Are there any employment limitations while I'm studying on a student visa?",
+                "What kind of jobs can I undertake while on my student visa?",
+                "Can I engage in part-time work during my studies on a student visa?",
+                "How many hours can I work per week with a student visa?",
+                "While studying, what are the work conditions on a student visa?"
+            ],
+            "responses": [
+                "You can: study work as a student union sabbatical officer You may be able to work - how much depends on what you’re studying and whether you’re working in or out of term-time. You cannot: claim public funds (benefits) and pensions work in certain jobs, for example as a professional sportsperson or sports coach be self-employed study at an academy or a local authority-funded school (also known as a maintained school) If your application is successful, you’ll be told what you can and cannot do on a Student visa."
+            ],
+            "tag": "StudentVisa_WorkStudyRules"
+        },
+        {
+            "patterns": [
+                "What are the course requirements for a student visa?",
+                "What type of course do I need to be enrolled in for a student visa?",
+                "What level of course is required for a student visa?",
+                "What are the academic prerequisites for a student visa?"
+            ],
+            "responses": [
+                "You must have an unconditional offer of a place on a course with a licensed student sponsor . To prove this, your education provider will send you a reference number (called a Confirmation of Acceptance for Studies ( CAS )) once they’ve offered you a place on the course. You need a CAS before you can apply for your visa."
+            ],
+            "tag": "StudentVisa_CourseRequirements"
+        },
+        {
+            "patterns": [
+                "What types of courses can I study with a student visa?",
+                "Can I study any course with a student visa?",
+                "What kind of courses are allowed with a student visa?",
+                "What course categories are acceptable for a student visa?",
+                "Are there restrictions on the courses I can enroll in with a student visa?",
+                "Can I study both undergraduate and postgraduate courses on a student visa?",
+                "What are the eligible courses I can take up with a student visa?",
+                "Which academic programs can I pursue on a student visa?",
+                "Is there a specific list of courses allowed under the student visa?"
+            ],
+            "responses": [
+                "You can do one of the following courses: a full-time course leading to a qualification that’s below degree level ( RQF level 3, 4 or 5) with at least 15 hours a week of organised daytime study a full-time course leading to a qualification that’s degree level or above ( RQF level 6, 7 or 8) a full-time course at degree level or above ( RQF level 6,7 or 8) that’s equivalent to a UK higher education course and is being delivered as part of a longer course overseas a part-time course leading to a qualification that’s above degree level ( RQF level 7 or above) a recognised foundation programme for postgraduate doctors or dentists an English language course at level B2 or above in the Common European Framework of Reference for Languages You can also apply for this visa if you’re taking up a full-time elected position as a Student Union Sabbatical Officer. You may also need an Academic Technology Approval Scheme ( ATAS ) certificate if you’re studying or researching sensitive topics at RQF level 7 or above . The qualification levels are different in Scotland ."
+            ],
+            "tag": "StudentVisa_CourseTypes"
+        },
+        {
+            "patterns": [
+                "Can postgraduate doctors and dentists apply for a student visa?",
+                "Are postgraduate doctors and dentists eligible for a student visa?",
+                "Can a postgraduate in medicine apply for a student visa?",
+                "I'm a postgraduate dentist, can I apply for a student visa?",
+                "Can doctors apply for a student visa?",
+                "Can dentists apply for a student visa?",
+                "Is there a special provision for postgraduate doctors and dentists to get a student visa?",
+                "Do postgraduate medical professionals qualify for a student visa?",
+                "As a postgraduate doctor, what are the chances of getting a student visa?",
+                "Are there any student visa guidelines specifically for postgraduate dentists?",
+                "I've completed my medical postgraduation, can I opt for a student visa?"
+            ],
+            "responses": [
+                "You can apply for this visa if you’re sponsored to do a recognised foundation programme and you’ve: finished a recognised UK degree in medicine or dentistry received that degree from a registered student sponsor spent your final year and at least 1 other year of studies leading to that degree in the UK"
+            ],
+            "tag": "StudentVisa_PostgradDoctorsDentists"
+        },
+        {
+            "patterns": [
+                "What is CAS?",
+                "What is the Confirmation of Acceptance for Studies (CAS)?",
+                "Can you tell me about the Confirmation of Acceptance for Studies?",
+                "What does CAS mean in the context of a UK student visa?",
+                "Why do I need a CAS for UK student visa?",
+                "How do I get a CAS?",
+                "Explain the purpose of the CAS in student visa applications.",
+                "Is CAS mandatory for applying for a student visa?",
+                "What's the role of CAS in my visa application process?",
+                "How does CAS affect my student visa eligibility?",
+                "Who provides the CAS for my student visa application?"
+            ],
+            "responses": [
+                "Once they’ve offered you a place on the course, your education provider will send you a reference number called a Confirmation of Acceptance for Studies. You must enter this reference number on your visa application. You must apply for your visa within 6 months of receiving your CAS ."
+            ],
+            "tag": "StudentVisa_CAS"
+        },
+        {
+            "patterns": [
+                "How much will my course cost?",
+                "What are the fees for my course?",
+                "Can you tell me about the tuition fees?",
+                "How much do I need to pay for my course?",
+                "I want to know about the course fees",
+                "What's the tuition fee for my study program?",
+                "Is there a range for course fees I should be aware of?",
+                "Can you provide a breakdown of the tuition costs?",
+                "What's the average fee for courses under a student visa?",
+                "How are the course fees determined for international students?"
+            ],
+            "responses": [
+                "You need enough money to pay for your course for 1 academic year (up to 9 months). The amount you need to pay will be on your Confirmation of Acceptance for Studies ( CAS ). If you’ve been in the UK with a valid visa for at least 12 months, you do not need to prove you have this money for your visa application."
+            ],
+            "tag": "StudentVisa_CourseFees"
+        },
+        {
+            "patterns": [
+                "How much money is needed to support myself for the student visa?",
+                "What are the financial requirement for a student visa?",
+                "What financial documents do I need to show for the student visa?",
+                "Is there a minimum amount I need to have for the student visa?",
+                "How do I demonstrate my financial capability for the student visa?",
+                "How recent should my financial proof for a student visa be?"
+            ],
+            "responses": [
+                "You’ll need to show you have enough money to support yourself - unless you’ve been in the UK with a valid visa for at least 12 months on the date of your application. How much money you need depends on where you will be studying. You’ll need either: £1,334 per month (for up to 9 months) for courses in London £1,023 per month (for up to 9 months) for courses outside London If you’re boarding at a residential independent school, you’ll need to pay boarding fees instead. The amount you need to pay will be on your CAS . London means the City of London and the 32 London boroughs. You’ll need to prove you have extra money for each family member you bring with you. You must have this money for at least 28 consecutive days. The end date of the 28-day period must be within 31 days of the date you apply for your visa. Example If you submit your application on 1 January 2021, you’d have to show that the funds were in your bank account for at least the 28-day period ending on 1 December. If you have a student loan or financial sponsorship, you’ll need to provide evidence of this from your loan or sponsorship company. Read the guidance on finances for student applications for more information about the money you need and how to prove it."
+            ],
+            "tag": "StudentVisa_FinancialProof"
+        },
+        {
+            "patterns": [
+                "Are there exceptions for financial proof requirements?",
+                "Who is exempted from showing financial proof for the student visa?",
+                "What are the exceptions to providing financial proof?",
+                "Can I get an exception for financial proof?",
+                "Is there any exception for the financial proof requirement?"
+            ],
+            "responses": [
+                "You do not need to prove the financial requirement if: you’ve had a UK visa for 12 months prior to the date of your Student visa application - you must currently be in the UK you’re applying as a student union sabbatical officer you’re applying as a postgraduate doctor or dentist on a recognised foundation programme"
+            ],
+            "tag": "StudentVisa_FinancialProofExceptions"
+        },
+        {
+            "patterns": [
+                "Are there exceptions for financial proof requirements for the student visa?",
+                "Who is exempted from showing financial proof for the student visa?",
+                "What are the exceptions to providing financial proof for a student visa?",
+                "Can I get an exception for financial proof for a student visa?",
+                "Is there any exception for the financial proof requirement for a student visa?",
+                "Are some students not required to show financial evidence for a student visa?",
+                "Under what conditions can I bypass the financial proof for the student visa?",
+                "Do all applicants need to present financial documents for the student visa?",
+                "I heard some applicants don't need to show financial proof for the student visa. Who are they?",
+                "Is financial evidence mandatory for every student visa applicant?"
+            ],
+            "responses": [
+                "You do not need to prove you have enough money to support yourself if you’re a British national overseas or from one of the following countries or territories: Australia Austria Bahrain Barbados Belgium Botswana Brazil Brunei Bulgaria Cambodia Canada Chile China Croatia Republic of Cyprus Czech Republic Denmark The Dominican Republic Estonia Finland France Germany Greece Hong Kong Hungary Iceland Indonesia Ireland Italy Japan Kazakhstan Kuwait Latvia Liechtenstein Lithuania Luxembourg Macao Malaysia Malta Mauritius Mexico Netherlands New Zealand Norway Oman Peru Poland Portugal Qatar Romania Serbia Singapore Slovakia Slovenia South Korea Spain Sweden Switzerland Taiwan Thailand Tunisia United Arab Emirates United States of America However, you might be asked to provide this evidence before you get a decision on your application. If you do need to provide it, you’ll be contacted by UK Visas and Immigration ( UKVI ) after you’ve submitted your application. Read the guidance on finances for student applications for more information about the money you need and how to prove it."
+            ],
+            "tag": "StudentVisa_FinancialProofExemptCountries"
+        },
+        {
+            "patterns": [
+                "What are the accepted English tests for the student visa?",
+                "Which English language tests can I use for my student visa application?",
+                "Can you tell me the approved English language tests for the UK student visa?",
+                "What English proficiency tests are accepted for a UK student visa?",
+                "What English exams are valid for a student visa application in the UK?",
+                "I want to know the recognized English language tests for the student visa.",
+                "Which English tests are officially accepted for the student visa process?",
+                "Are there specific English tests I need to take for my UK student visa?",
+                "What are the permissible English examinations for the student visa?"
+            ],
+            "responses": [
+                "You must prove your knowledge of the English language when you apply. You can prove your knowledge of English by: passing a Secure English Language Test ( SELT ) from an approved provider having a GCSE, A level, Scottish National Qualification level 4 or 5, Scottish Higher or Advanced Higher in English, gained through study at a UK school that you began when you were under 18"
+            ],
+            "tag": "StudentVisa_AcceptedEnglishTests"
+        },
+        {
+            "patterns": [
+                "Can a higher education provider assess my English language test for the student visa?",
+                "What if my English test is assessed by my university for the visa application?",
+                "Is an English language test assessed by a higher education provider accepted for the UK student visa?",
+                "Can my university evaluate my English proficiency for the student visa?",
+                "Is it acceptable if my college assesses my English skills for visa purposes?",
+                "I've been assessed by my institution for English skills. Will that work for the visa application?",
+                "Do UK immigration authorities accept English assessments done by educational institutions?",
+                "What's the policy on higher education institutions conducting English tests for visa applications?",
+                "Can the university assess my English language proficiency?"
+            ],
+            "responses": [
+                "If you’re studying at degree level or above, your Higher Education Provider ( HEP ) can assess your level of English themselves. This means they may ask you to do a different test. This must still be equivalent to a CEFR level B2."
+            ],
+            "tag": "StudentVisa_HEPAssessedEnglishTest"
+        },
+        {
+            "patterns": [
+                "Who does not need to prove their knowledge of English?",
+                "Who doesn't have to prove their English skills for the student visa?",
+                "Are there any exceptions to the English language requirement for the UK student visa?",
+                "Are there individuals exempt from the English test for a student visa?",
+                "Which applicants are not required to show English proficiency for the student visa?",
+                "Is every applicant required to prove their English skills for the visa?",
+                "What are the exemptions for proving English language proficiency in a student visa application?",
+                "Do all applicants need an English test result for the student visa?"
+            ],
+            "responses": [
+                "You do not need to prove your knowledge of English if you’re from one of the following countries or territories, or you’ve completed a qualification equivalent to a UK degree in one of them: Antigua and Barbuda Australia the Bahamas Barbados Belize the British overseas territories Dominica Grenada Guyana Ireland Jamaica Malta New Zealand St Kitts and Nevis St Lucia St Vincent and the Grenadines Trinidad and Tobago UK USA You also do not need to prove your knowledge of English if one of the following applies: you’re a national of Canada you’re applying to come to the UK for a study abroad programme as part of a university degree course in the USA you proved your level of English in a previous visa application"
+            ],
+            "tag": "StudentVisa_NoProofOfEnglish"
+        },
+        {
+            "patterns": [
+                "What documents do I need to apply for a student visa?",
+                "Can you tell me what paperwork is required for the UK student visa application?",
+                "Which documents should I submit for the student visa application?",
+                "What all documentation is needed for the student visa application?",
+                "List the documents necessary for applying for a student visa.",
+                "I need to know the document checklist for the student visa.",
+                "Which documents are mandatory for the UK student visa process?",
+                "What are the document prerequisites for the UK student visa?"
+            ],
+            "responses": [
+                "When you apply for your Student visa you must provide: a current passport or other valid travel documentation a Confirmation of Acceptance for Studies ( CAS ) from your course provider You may also need to provide: proof you have enough money to support yourself and pay for your course - this will vary depending on your circumstances a valid ATAS certificate if your course and nationality require it proof of parental or other legal guardian consent if you’re under 18 proof of your relationship to your parent or guardian if you’re under 18 your tuberculosis test results written consent for your application from your financial sponsor if you’ve received sponsorship for your course fees and living costs in the last 12 months You may need to provide additional documents depending on your circumstances. Read the guidance for the full list of documents you’ll need to provide . You need a blank page in your passport for your visa if you need to give your biometric information (fingerprints and a photograph) at a visa application centre. You’ll be told if you need to do this when you apply."
+            ],
+            "tag": "StudentVisa_DocumentsRequired"
+        },
+        {
+            "patterns": [
+                "What documents are required for a student visa for someone under 18?",
+                "I am under 18, what paperwork do I need for a student visa?",
+                "What's the document checklist for minors applying for a student visa?",
+                "Are there any specific documents that under-18 applicants need for a student visa?",
+                "Which documents should someone below 18 provide for the student visa application?",
+                "Do minors have a different set of documents to submit for the student visa?",
+                "What should an underage student prepare in terms of documentation for the student visa?",
+                "I'm not 18 yet, what documents do I need for the UK student visa application?",
+                "What paperwork should I gather if I'm applying for a student visa and I'm under 18?",
+                "Which documents are required for the student visa for applicants under the age of 18?"
+            ],
+            "responses": [
+                "If you’re under 18 you’ll need written consent from both parents or legal guardians (or one parent if they have sole responsibility). This must include their consent for: your visa application your living and care arrangements in the UK your travel to the UK You’ll also need to provide a copy of your birth certificate (or another government issued document) that shows the names of your parents."
+            ],
+            "tag": "StudentVisa_ApplicantsUnder18"
+        },
+        {
+            "patterns": [
+                "How can I apply for a student visa?",
+                "What is the process for applying for a student visa?",
+                "Where do I submit my student visa application?",
+                "What is the best way to apply for a student visa?",
+                "Can I apply for a student visa online?",
+                "Is there an online portal to submit my student visa application?",
+                "Guide me on the online student visa application process.",
+                "How does the online application work for the student visa?",
+                "I'd like to apply for a student visa online. What are the steps?"
+            ],
+            "responses": [
+                "You must apply online for a Student visa. Check which documents you’ll need to apply ."
+            ],
+            "tag": "StudentVisa_ApplyOnline"
+        },
+        {
+            "patterns": [
+                "How can I apply for a UK student visa from outside the UK?",
+                "What is the process of applying for a student visa from overseas?",
+                "I'm currently not in the UK. How do I apply for a student visa?",
+                "What steps do I need to take to apply for a student visa from my home country?",
+                "I am abroad right now, what's the procedure to apply for the UK student visa?",
+                "What is the process of applying for a student visa from outside the UK?",
+                "I live outside the UK. How do I start my student visa application?",
+                "If I'm not in the UK, what's the way to apply for a student visa?",
+                "Can you guide me on applying for a UK student visa while I'm overseas?",
+                "What's the procedure for non-residents to apply for a UK student visa?",
+                "How do applicants from outside the UK apply for a student visa?"
+            ],
+            "responses": [
+                "As part of your application, you’ll need to prove your identity. How you do this depends on where you’re from and what type of passport you have. You’ll either: give your fingerprints and a photograph (biometric information) at a visa application centre use the ‘UK Immigration: ID Check’ app to scan your identity document - you’ll also create or sign into your UK Visas and Immigration (UKVI) account You’ll be told what you need to do when you apply. Once you’ve started your application, you can save your form and complete it later. Start now"
+            ],
+            "tag": "StudentVisa_ApplicationOutsideUK"
+        },
+        {
+            "patterns": [
+                "How long does it take to get a decision on my student visa application?",
+                "What's the usual waiting time for a student visa decision?",
+                "When can I expect to hear back about my student visa application?",
+                "What's the processing time for a UK student visa?",
+                "After applying, how long will it take to know the outcome of my student visa?",
+                "How many days does it usually take to receive a response on a student visa application?",
+                "What's the expected duration to get a verdict on my UK student visa application?",
+                "In how much time will the decision for my student visa be made?",
+                "How long should I wait to get a response after submitting my student visa application?",
+                "When will I get a decision on my student visa application"
+            ],
+            "responses": [
+                "You’ll usually get a decision within 3 weeks. You may be able to pay to get a faster decision - you’ll be told if you can when you apply."
+            ],
+            "tag": "StudentVisa_DecisionTimeline"
+        },
+        {
+            "patterns": [
+                "How can I apply for a student visa from inside the UK?",
+                "What is the process to apply for a student visa when I'm already in the UK?",
+                "Can I apply for a UK student visa if I'm already in the UK?",
+                "What's the procedure for applying for a UK student visa from within the UK?",
+                "I'm currently in the UK, how do I proceed with my student visa application?",
+                "If I'm presently in the UK, how do I go about applying for a student visa?",
+                "While I'm in the UK, how can I start my student visa application?",
+                "Can I start my UK student visa process even if I'm currently residing here?",
+                "I'm living in the UK now; what's the process for the student visa application?",
+                "Can I apply for a student visa from inside the UK?"
+            ],
+            "responses": [
+                "You may be able to apply to: extend your Student visa switch to a Student visa from another type of visa You may be able to pay to get a faster decision - you’ll be told if you can when you apply."
+            ],
+            "tag": "StudentVisa_ApplicationProcess_InsideUK"
+        },
+        {
+            "patterns": [
+                "What happens after I apply for my student visa?",
+                "What should I expect after submitting my student visa application?",
+                "What are the next steps after applying for a UK student visa?",
+                "After I've applied for a student visa, what comes next?",
+                "Once my student visa application is in, what should I do?",
+                "What's the procedure following a student visa application submission?",
+                "What actions follow after sending in a student visa application?",
+                "After my application, how will I be updated on my student visa status?",
+                "Post-application, what are the typical processes for the UK student visa?",
+                "What happens after submitting my student visa application?"
+            ],
+            "responses": [
+                "You’ll be contacted if your application is complex and will take longer, for example because: your supporting documents need to be verified you need to attend an interview of your personal circumstances (for example if you have a criminal conviction) If you need to change something in your application after you’ve sent it contact UK Visas and Immigration (UKVI) . You can ask to withdraw your application by contacting UKVI. Your fee will only be refunded if UKVI has not started processing your application."
+            ],
+            "tag": "StudentVisa_AfterApplication"
+        },
+        {
+            "patterns": [
+                "What should I do after getting my visa decision?",
+                "I've received a decision on my student visa, what next?",
+                "What are the next steps after receiving my visa decision?",
+                "After getting a decision on my student visa, what should I do?",
+                "What are the next steps if my visa application is successful?",
+                "Now that I have my visa decision, what's the next step?",
+                "What actions should I take following my student visa decision?",
+                "I've been notified about my visa status, what should I do now?",
+                "Following the decision on my student visa, what procedures should I follow?",
+                "What is the next step after getting a decision on my student visa application?"
+            ],
+            "responses": [
+                "If your application is successful, you’ll get either: a biometric residence permit - if you gave your biometric information at a visa application centre a digital immigration status which you can view and prove online - if you used the ‘UK Immigration: ID Check’ app Find out what happens after you get your decision ."
+            ],
+            "tag": "StudentVisa_PostDecision"
+        },
+        {
+            "patterns": [
+                "Can my spouse and children come with me to the UK on a student visa?",
+                "What is the process for my partner and children to get a visa?",
+                "How do I apply for visas for my family as a student?",
+                "Can my family join me in the UK while I'm studying?",
+                "Is it possible for my spouse and kids to stay with me in the UK during my studies?",
+                "How can I bring my family to the UK while I study?",
+                "What are the visa requirements for my family if I'm studying in the UK?",
+                "Can I bring in my family with me while stuyding in the UK?"
+            ],
+            "responses": [
+                "Your partner and children (‘dependants’) may be able to apply to come to the UK or stay longer in the UK. You must be one of the following: a full-time student on a postgraduate level course (RQF level 7 or above) that lasts 9 months or longer a new government-sponsored student on a course that lasts longer than 6 months a Doctorate Extension Scheme student"
+            ],
+            "tag": "StudentVisa_Dependents"
+        },
+        {
+            "patterns": [
+                "What kind of relationship do I need to have with someone to apply for a visa as their dependent?",
+                "What are the relationship criteria for a dependent visa?",
+                "Who can apply as my dependent?",
+                "What relationship is required to apply for a student visa as a dependent?",
+                "Who qualifies as a dependant partner or a child?",
+                "What is the definition of 'dependent' in the context of a student visa?"
+            ],
+            "responses": [
+                "A dependant partner or child is one of the following: your husband, wife or civil partner your unmarried partner your child under 18 years old - including if they were born in the UK during your stay You’ll need to provide evidence of your relationship when you apply, for example: a marriage or civil partnership certificate for your partner a birth certificate for your child Find out what other documents you can use to prove your relationship ."
+            ],
+            "tag": "StudentVisa_RelationshipCriteria"
+        },
+        {
+            "patterns": [
+                "What are the requirements for my 16 year old to apply as a dependent?",
+                "Can my 17 year old child apply for a student visa as a dependent?",
+                "What is the process for children who are 16 or 17?",
+                "Are there specific rules for dependents who are 16 or 17?",
+                "How does the application process differ for dependents aged 16 or 17?",
+                "What should I know about getting a dependent visa for my 16-year-old child?",
+                "Are the requirements different for a 17-year-old applying as a student visa dependent?",
+                "I have a child who's 16; how can they apply as my dependent?",
+                "Do 16 and 17-year-olds have special criteria when applying as dependents on a student visa?"
+            ],
+            "responses": [
+                "If your child is 16 or 17 on the date you apply you’ll need to prove they are not living an independent life, for example they’re not married or in a civil partnership. You’ll need to prove: where they live - if they do not live with you, you’ll need to explain why any rent or upkeep they pay you each month that you support them financially if they do not live with you If your child lives with you, you’ll need to provide 2 of the following documents confirming their address: a bank statement credit card bills driving licence NHS registration document an official letter from their university or college"
+            ],
+            "tag": "StudentVisa_DependentAgeCriteria"
+        },
+        {
+            "patterns": [
+                "How much money do my dependents need to support themselves in the UK?",
+                "What are the financial requirements for dependents on a student visa?",
+                "Can you tell me about the financial support needed for my family while we are in the UK?",
+                "What amount of money is necessary for dependents to live in the UK?",
+                "What financial proof do I need to show for my dependents' stay in the UK?",
+                "Are there specific financial guidelines for student visa dependents?",
+                "How much should I budget for my family's living expenses in the UK?",
+                "What's the estimated cost of living for dependents on a student visa in the UK?"
+            ],
+            "tag": "StudentVisa_DependentFinancialRequirements",
+            "responses": [
+                "Your partner and child must each have a certain amount of money available to them. This is in addition to the money you must have to support yourself. How much money they need depends on where you will be studying. They must have either: £845 a month (for up to 9 months) for courses in London £680 a month (for up to 9 months) for courses outside London If you’re applying at the same time as your partner or child (you’re applying together as a family), you’ll need to prove you have both money to pay for your course and to support yourself and additional money for each of them. If your partner or child is applying at a different time to you (they’re applying separately) they only need to prove they have money to support themselves. You (or your partner or child) must have this money for at least 28 consecutive days. The end date of the 28 day period must be within 31 days of the date they apply for their visa. If you have a student loan or financial sponsorship, you’ll need to provide evidence of this from your loan or sponsorship company. If your loan does not cover your partner or child, you’ll need to prove you have money to support them instead."
+            ]
+        },
+        {
+            "patterns": [
+                "Are there any exceptions for my partner or child to prove they have money to support themselves?",
+                "When does my partner or child not need to provide financial proof for the visa?",
+                "Under what circumstances are dependents exempted from showing financial proof for a student visa?",
+                "Who does not need to show funds for a student visa as a dependent?",
+                "When does my partner and child do not need to provide financial proof?",
+                "Is there a scenario where my family doesn't need to show financial evidence for the student visa?",
+                "In which situations is financial proof waived for dependents on a student visa?",
+                "Can my family skip the financial requirement under certain conditions?",
+                "Are there exceptions to the financial criteria for student visa dependents?",
+                "Do all dependents need to showcase their financial capacity for a student visa?"
+            ],
+            "responses": [
+                "Your partner or child does not need to prove they have this money if they’ve been in the UK with a valid visa for at least 12 months. If you and your partner or child are from a country listed under the ‘differential evidence requirement’ and you’re applying at the same time, they do not need to prove they have money to support themselves. However, they might be asked to provide this evidence before they get a decision on their application. If they do need to provide it, they’ll be contacted by UK Visas and Immigration ( UKVI ) after they’ve submitted their application."
+            ],
+            "tag": "StudentVisa_DependentFinancialRequirementExceptions"
+        },
+        {
+            "patterns": [
+                "How can my partner and children apply for the student visa from outside the UK?",
+                "What's the process for dependents to apply for a student visa from abroad?",
+                "Can my dependents apply for the student visa from outside the UK?",
+                "What steps do my family need to follow to apply for the student visa if they're not in the UK?",
+                "How can my spouse and kids secure a student visa while being overseas?",
+                "If my family is abroad, how do they initiate the student visa application?",
+                "Can my spouse and child get a student visa from abroad?",
+                "How can my family apply from outside the UK?"
+            ],
+            "responses": [
+                "Your partner and children must either: apply online as your partner outside the UK apply online as your child outside the UK They’ll need your application number - you get it when you apply. This number is called a Global Web Form ( GWF ) or a Unique Application Number ( UAN ). You’ll find it on emails and letters from the Home Office about your application. As part of their application, they’ll need to have their fingerprints and photograph taken at a visa application centre (to get a biometric residence permit). They’ll have to collect their biometric residence permit within 10 days of when they said they’d arrive in the UK. They may be able to pay to get their visa faster or use other services depending on which country they’re in - check with the visa application centre."
+            ],
+            "tag": "StudentVisa_DependentApplicationOutsideUK"
+        },
+        {
+            "patterns": [
+                "How long can my partner and children stay in the UK on a student visa?",
+                "What's the duration of stay for dependents on a student visa?",
+                "Until when can my dependents stay in the UK if I have a student visa?",
+                "What is the maximum time my family can stay with me while I'm studying in the UK?",
+                "How many years can my dependents reside in the UK under the student visa?",
+                "If I have a student visa, how long are my spouse and kids allowed to stay?",
+                "Can my family stay in the UK for the entirety of my studies on a student visa?",
+                "What are the limits on the duration of stay for my family members if I'm on a student visa?",
+                "For how long will the dependent visa for my family be valid?",
+                "For how long can my family stay in the UK?"
+            ],
+            "responses": [
+                "If their application is successful, their visa will end on the same date as yours."
+            ],
+            "tag": "StudentVisa_DependentStayDuration"
+        },
+        {
+            "patterns": [
+                "Can my spouse extend their visa while in the UK?",
+                "Is it possible for my child to switch their visa from within the UK?",
+                "Can my partner apply for a visa extension in the UK?",
+                "Can dependents switch their visas without leaving the UK?",
+                "What's the process for my spouse to renew their visa inside the UK?",
+                "How can my child switch to a different visa category without leaving the country?",
+                "Are there provisions for dependents to change visa types while in the UK?",
+                "If my partner's visa is expiring, can they renew it from within the UK?"
+            ],
+            "responses": [
+                "Your partner or child can apply to extend or switch their visa either: at the same time as you apply to extend or switch your own visa at any time before their current visa expires This includes children who have turned 18 during your stay. Your partner or child cannot apply to switch in the UK if they have one of the following visas: a visit visa a short-term student visa a Parent of a Child Student visa a seasonal worker visa a domestic worker in a private household visa"
+            ],
+            "tag": "StudentVisa_DependentExtendSwitch"
+        },
+        {
+            "patterns": [
+                "What is the cost to extend my spouse's visa?",
+                "How much does it cost for my child to switch their visa?",
+                "What are the fees for visa extension for my partner?",
+                "Can you tell me about the costs involved in switching visas in the UK for dependents?",
+                "How much does it cost to switch or extend a visa for my partner and child?",
+                "Is there a fee involved for renewing my dependent's visa in the UK?",
+                "What's the charge for my spouse to switch or extend their visa?",
+                "I want to know the price of modifying the visa status for my family. How much is it?",
+                "How much do I need to pay for my dependent's visa renewal or switch?",
+                "Could you provide details on the pricing for visa extensions for family members?"
+            ],
+            "responses": [
+                "Each person will need to pay: £490 for the visa, in addition the healthcare surcharge - check how much they’ll have to pay. They’ll need to have their biometric information (fingerprints and a photo) taken - there’s no fee for this."
+            ],
+            "tag": "StudentVisa_DependentExtendSwitchFee"
+        },
+        {
+            "patterns": [
+                "What is the process to extend my spouse's visa from inside the UK?",
+                "How can my child switch their visa while they are in the UK?",
+                "What is the procedure for my partner to extend their visa?",
+                "Can you guide me through the process of switching visas in the UK for dependents?",
+                "What steps should my spouse follow to renew the visa within the UK?",
+                "Could you outline the visa extension procedure for family members already in the UK?",
+                "What's involved in the process of visa renewal for dependents?",
+                "What steps should my family follow to renew the visa within the UK?"
+            ],
+            "responses": [
+                "Your partner and child must apply online. They must either: apply online as your partner inside the UK apply online as your child inside the UK They’ll need your application number  - you get it when you apply. This number is called a Global Web Form ( GWF ) or a Unique Application Number ( UAN ). You’ll find it on emails and letters from the Home Office about your application. As part of their application, they’ll be asked to make an appointment at a UK Visa and Citizenship Application Services ( UKVCAS ) service point to provide their biometric information (fingerprints and a photo). They’ll also need to submit their supporting documents. They can: upload them into the online service have them scanned at their UKVCAS appointment They must not travel outside of the UK, Ireland, the Channel Islands or the Isle of Man until they get a decision. Their application will be withdrawn if they do."
+            ],
+            "tag": "StudentVisa_DependentSwitchExtendProcess"
+        },
+        {
+            "patterns": [
+                "Is there a way to get a quicker decision on my partner's visa application?",
+                "Can I expedite my child's visa application process?",
+                "Are there options to speed up the decision on our visa extension?",
+                "Can I fast-track my partner and child's visa switch application?",
+                "How can I make sure the visa application for my dependents gets processed quickly?",
+                "Is there a premium service or fast track option for speeding up visa decisions for family?",
+                "How can I accelerate the visa application review for my spouse?",
+                "Are there any priority services to get a faster response on dependent visa applications?",
+                "Can the visa decision time be shortened for dependents?",
+                "What are the options to get a rapid decision for my child's visa application?"
+            ],
+            "responses": [
+                "They may be able to pay to get a faster decision - they’ll be told if they can when they apply."
+            ],
+            "tag": "StudentVisa_DependentFasterDecision"
+        },
+        {
+            "patterns": [
+                "What is the status of my child who was born in the UK?",
+                "My child was born in the UK, do they need a visa?",
+                "We have a student visa and our child was born here, what's their status?",
+                "Does my UK-born child need to apply for a visa?",
+                "What if my child was born in the UK?",
+                "Does my child need a visa if they were born in the UK?",
+                "My child was born in the UK while I was on a student visa, what's their visa status?",
+                "Are there any visa requirements for children born in the UK to foreign students?",
+                "How does the UK treat children born to international students?",
+                "Is there a different process for children born in the UK during my studies?",
+                "Do I have to make any visa applications for my child born in the UK during my course?"
+            ],
+            "responses": [
+                "If you have a child while you’re in the UK, they do not automatically become a British citizen . You must apply for your child’s dependant visa if you want to travel in and out of the UK with them. The form you fill in depends on whether your child is inside or outside the UK. Your child must either: apply online as your child inside the UK apply online as your child outside the UK You’ll need to provide a full UK birth certificate for each child, showing the names of both parents. You must apply for their dependant visa before they turn 18 if they want to stay in the UK."
+            ],
+            "tag": "StudentVisa_DependentBornInUK"
+        },
+        {
+            "patterns": [
+                "How do I extend my student visa?",
+                "What are the steps to extend my student visa?",
+                "What is the process for extending a student visa?",
+                "What documents do I need to extend my student visa?",
+                "Can I extend my student visa?",
+                "Who is eligible to extend their student visa?",
+                "Is it possible to renew my student visa?",
+                "How long can I extend my student visa for?",
+                "Can I stay longer in the UK with a student visa extension?"
+            ],
+            "responses": [
+                "You may be able to extend your Student visa to stay longer and continue your course or study a new course. This includes if you currently have a Tier 4 (General) student visa. To extend your visa you must: be in the UK on a Student visa or a Tier 4 (General) student visa have an unconditional offer of a place on a course with a licensed student sponsor - shown by your Confirmation of Acceptance for Studies ( CAS ) show that your studies are at a higher academic level than your current course (called the ‘academic progress requirement’) - there are some exceptions If you’ve been in the UK with a valid visa for less than 12 months, you’ll need to prove you have enough money to support yourself in the UK . Your partner or children will need to apply separately to extend their visa. They can either apply at the same time as you, or at any time before their current visa expires. You can also switch to a Graduate visa to stay in the UK for at least 2 years after successfully completing your course."
+            ],
+            "tag": "StudentVisa_Extend"
+        },
+        {
+            "patterns": [
+                "What academic progress do I need to show to extend my student visa?",
+                "How do I demonstrate academic progress for extending my student visa?",
+                "What proof of academic progress is needed for visa extension?",
+                "What are the academic requirements for extending a student visa?",
+                "Do I need to provide transcripts for visa extension?",
+                "How important is my academic performance for visa renewal?",
+                "What academic proof is necessary for visa extension?"
+            ],       
+            "responses": [
+                "If you’re currently studying in the UK, you’ll usually need to show your studies will be at a higher academic level than your current course. Your new course must be one of the following: at a higher academic level than your current course at the same level and related to your previous course or career aspirations - it must be degree level or above at a Higher Education Provider (HEP) intercalated to a medicine, dentistry or medical science course you started studying under your Student visa (including a Tier 4 (General) student visa) You do not need to show your studies are at a higher level if you’re doing one of the following: resitting exams or repeating modules applying for the first time to a new institution to complete a course you started at an institution that lost its student sponsorship licence applying after working as a student union sabbatical officer to complete a qualification you started studying under your last Student visa (including a Tier 4 (General) student visa) completing a PhD or other doctorate that you started studying under your last Student visa (including a Tier 4 (General) student visa) continuing your medical, dentistry or medical science degree after completing an intercalated course applying to extend your stay to complete your studies because you’ve done (or want to do) a work placement or study abroad programme Read the guidance for more information about when you need to prove your studies are at a higher level ."
+            ],
+            "tag": "StudentVisa_Extend_AcademicProgress"
+        },
+        {
+            "patterns": [
+                "When should I apply to extend my student visa?",
+                "What is the best time to apply for a student visa extension?",
+                "How early can I apply for an extension of my student visa?",
+                "When is the deadline to apply for a student visa extension?",
+                "When can someone apply to extend their student visa?",
+                "When can I apply to extend my student visa?",
+                "How many days or months before my visa expires should I apply for an extension?",
+                "Is there a recommended time frame to renew my student visa?",
+                "How close to the expiration date can I apply for a student visa extension?",
+                "When can I apply to extend my student visa?"
+            ],
+            "responses": [
+                "The earliest you can apply is 3 months before your course starts. You must apply before your current visa expires. Your new course must begin within 28 days of your current visa expiring. For example, if your visa expires on 1 December, you must apply for a new visa before 1 December. Your new course must begin by 29 December. You must also apply within 6 months of getting a Confirmation of Acceptance for Studies ( CAS ) . You can stay in the UK until you get your decision. If you applied for an administrative review because your application was refused, you can stay in the UK until you get your review decision."
+            ],
+            "tag": "StudentVisa_Extend_ApplicationTime"
+        },
+        {
+            "patterns": [
+                "How much is the fee to extend a student visa?",
+                "What is the cost of extending a student visa?",
+                "How much will I have to pay for a student visa extension?",
+                "What is the price for a student visa extension?",
+                "Can you tell me about the charges for renewing a student visa?",
+                "How much do I need to budget for a student visa extension?",
+                "What's the total expense for extending my student visa?",
+                "How much money do I need to pay to extend my student visa?"
+            ],
+            "responses": [
+                "For each person, you’ll need to pay: £490 to extend this visa the healthcare surcharge - check how much you’ll have to pay You’ll need to have your biometric information (fingerprints and a photo) taken - there’s no fee for this."
+            ],
+            "tag": "StudentVisa_Extend_Fee"
+        },
+        {
+            "patterns": [
+                "How can I apply to extend my student visa?",
+                "What is the process for extending a student visa?",
+                "Can you tell me the steps to apply for a student visa extension?",
+                "How do I extend my student visa?",
+                "How do I apply to extend my student visa?",
+                "Where do I submit my application for student visa extension?",
+                "Is there an online platform to apply for a student visa extension?",
+                "What is the procedure for renewing my student visa?"
+            ],
+            "responses": [
+                "You must apply online. As part of your application you’ll need to prove your identity. How you do this depends on where you’re from and the type of passport or resident permit you have. You’ll either: use the ‘UK Immigration: ID Check’ app to scan your identity document - you’ll also create or sign in to your UK Visas and Immigration ( UKVI ) account give your fingerprints and a photograph (biometric information) at a UK Visa and Citizenship Application Services ( UKVCAS ) service point - this is to get a biometric residence permit You’ll be told what you need to do when you apply. Start now You must not travel outside of the UK, Ireland, the Channel Islands or the Isle of Man until you get a decision. Your application will be withdrawn if you do."
+            ],
+            "tag": "StudentVisa_Extend_Application"
+        },
+        {
+            "patterns": [
+                "How long does it take to get a decision on my student visa extension?",
+                "When will I know if my student visa extension has been approved?",
+                "What is the processing time for a student visa extension?",
+                "How much time does it take to get a decision on a visa extension application?",
+                "How soon can I expect a response after applying for a student visa extension?",
+                "What's the usual waiting time for a student visa extension decision?",
+                "How many days will it take for my student visa extension to be processed?",
+                "After submitting my extension application, when can I hear back?",
+                "Is there a standard timeline for visa extension decisions?",
+                "When should I expect feedback on my student visa extension?",
+                "When will I get a decision on my student visa extension application?"
+            ],
+            "responses": [
+                "A decision will usually be made within 8 weeks. You may be able to pay to get a faster decision - you’ll be told if you can when you apply."
+            ],
+            "tag": "StudentVisa_Extend_DecisionTime"
+        },
+        {
+            "patterns": [
+                "What happens after I apply for a student visa extension?",
+                "What should I do after applying for a student visa extension?",
+                "What is the next step after applying for a visa extension?",
+                "What comes after applying for a students visa extension?",
+                "After applying for my visa extension, what should I anticipate?",
+                "What processes follow a student visa extension application?",
+                "Can you guide me on the post-application process for a visa extension?",
+                "After I've submitted my student visa extension application, what should I do next?",
+                "What's the subsequent procedure after a student visa extension application?"
+            ],
+            "responses": [
+                "You’ll be contacted if your application is complex and will take longer, for example because: your supporting documents need to be verified you need to attend an interview of your personal circumstances (for example if you have a criminal conviction) If you need to change something in your application after you’ve sent it contact UK Visas and Immigration ( UKVI ) . You can ask to withdraw your application by contacting UKVI . Your fee will only be refunded if UKVI has not started processing your application."
+            ],
+            "tag": "StudentVisa_Extend_AfterApplication"
+        },
+        {
+            "patterns": [
+                "What happens if my visa extension application is successful?",
+                "What should I expect if my student visa extension is approved?",
+                "What is the next step if my visa extension is granted?",
+                "What do I do if my visa extension application is successful?",
+                "If my visa extension gets approved, what's the subsequent procedure?",
+                "What should I prepare for once my student visa extension is given the green light?",
+                "Once my visa extension is approved, what do I need to do next?",
+                "How should I proceed after a successful student visa extension application?",
+                "Upon receiving approval for my visa extension, what actions should I take?"
+            ],
+            "responses": [
+                "If your application is successful, you’ll get either: a biometric residence permit - if you gave your biometric information at a UKVCAS centre a digital immigration status which you can view and prove online - if you used the ‘UK Immigration: ID Check’ app"
+            ],
+            "tag": "StudentVisa_Extend_ApplicationSuccess"
+        },
+        {
+            "patterns": [
+                "How can I switch to a student visa?",
+                "What is the process of switching to a student visa?",
+                "Can I change my current visa to a student visa?",
+                "Is it possible to switch to a student visa?",
+                "How do I change my current visa status to a student visa?",
+                "What steps should I take to change to a student visa?",
+                "Is there a way for me to switch from my current visa to a student one?",
+                "How do I change to a student visa?"
+            ],
+            "responses": [
+                "You may be able to switch to a Student visa if you already have permission to be in the UK. You cannot switch to this visa if you have one of the following visas: a visit visa a short-term student visa a Parent of a Child Student visa a seasonal worker visa a domestic worker in a private household visa leave outside the immigration rules If you have settled or pre-settled status under the EU Settlement Scheme, you do not need to apply for a visa."
+            ],
+            "tag": "StudentVisa_Switch"
+        },
+        {
+            "patterns": [
+                "Who can switch to a student visa?",
+                "Am I eligible to switch to a student visa?",
+                "What are the eligibility criteria to switch to a student visa?",
+                "Can I switch from my current visa to a student visa?",
+                "What are the requirements to switch to a student visa?",
+                "What is required to switch to a student visa?",
+                "Am I qualified to switch to a student visa?",
+                "Can anyone switch from their current visa type to a student visa?",
+                "What criteria must be met to switch to a student visa?",
+                "Who qualifies to transition to a student visa?"
+            ],
+            "responses": [
+                "To switch to a Student visa you must: be in the UK have an unconditional offer of a place on a course with a licensed student sponsor - shown by your Confirmation of Acceptance for Studies ( CAS ) If you’ve been in the UK with a valid visa for less than 12 months, you’ll need to prove you have enough money to support yourself in the UK . Your partner or children will need to apply separately to switch their visa. They can either apply at the same time as you, or at any time before their current visa expires."
+            ],
+            "tag": "StudentVisa_SwitchEligibility"
+        },
+        {
+            "patterns": [
+                "When should I apply to switch to a student visa?",
+                "What's the best time to apply for switching to a student visa?",
+                "How much time before my course starts should I apply for the switch?",
+                "How early can I apply to switch to a student visa?",
+                "When is the earliest I can apply for a switch to a student visa?",
+                "How far in advance should I apply to switch to a student visa?",
+                "What's the recommended time frame to apply for a switch to a student visa?",
+                "When is the deadline to apply for switching to a student visa before my course starts?"
+            ],
+            "responses": [
+                "The earliest you can apply is 3 months before your course starts. You must apply before your current visa expires. Your new course must begin within 28 days of your current visa expiring. For example, if your visa expires on 1 December, you must apply for a new visa before 1 December. Your new course must begin by 29 December. You must also apply within 6 months of getting a Confirmation of Acceptance for Studies ( CAS ) . You can stay in the UK until you get your decision. If you applied for an administrative review because your application was refused, you can stay in the UK until you get your review decision."
+            ],
+            "tag": "StudentVisa_SwitchTimeline"
+        },
+        {
+            "patterns": [
+                "How much does it cost to switch to a student visa?",
+                "What are the fees for switching to a student visa?",
+                "What's the cost for applying to switch to a student visa?",
+                "What is the fee to switch my visa to a student visa?",
+                "How much do I need to pay to switch to a student visa?",
+                "What's the price for converting my visa to a student visa?",
+                "Are there any charges to change my current visa to a student visa?",
+                "Can you tell me about the cost associated with switching to a student visa?",
+                "Is there a fee to change my visa type to student?",
+                "What amount am I looking at if I want to switch to a student visa?",
+                "How much will it cost to switch to a student visa?"
+            ],
+            "responses": [
+                "For each person, you’ll need to pay: £490 to extend this visa, the healthcare surcharge - check how much you’ll have to pay You’ll need to have your biometric information (fingerprints and a photo) taken - there’s no fee for this."
+            ],
+            "tag": "StudentVisa_SwitchFees"
+        },
+        {
+            "patterns": [
+                "How do I apply to switch to a student visa?",
+                "What's the procedure for switching to a student visa?",
+                "What steps do I need to take to switch to a student visa?",
+                "Can you guide me through the process of switching to a student visa?",
+                "What are the necessary actions for changing to a student visa?",
+                "How can I change my current visa type to a student visa?",
+                "I'd like to switch to a student visa, what is the application process?",
+                "Tell me the application process to switch to a student visa.",
+                "What's involved in converting my visa to a student one?",
+                "Guide me on the steps to switch my visa to a student visa."
+            ],
+            "responses": [
+                "You must apply online. As part of your application you’ll need to prove your identity. How you do this depends on where you’re from and the type of passport you have. You’ll either: give your fingerprints and a photograph (biometric information) at a UK Visa and Citizenship Application Services ( UKVCAS ) service point use the ‘UK Immigration: ID Check’ app to scan your identity document (you’ll also create or sign in to your UK Visas and Immigration ( UKVI ) account) You’ll be told what you need to do when you apply. Start now You must not travel outside of the UK, Ireland, the Channel Islands or the Isle of Man until you get a decision. Your application will be withdrawn if you do."
+            ],
+            "tag": "StudentVisa_SwitchApplication"
+        },
+        {
+            "patterns": [
+                "How long does it take to get a decision on a student visa switch application?",
+                "When will I know if my student visa switch application is approved?",
+                "What's the processing time for a student visa switch application?",
+                "How much time will it take to process my student visa switch application?",
+                "After applying to switch to a student visa, how long until I get a response?",
+                "How many days does it usually take for a student visa switch application decision?",
+                "What's the average wait time for a decision on switching to a student visa?",
+                "How soon can I expect a decision after applying to switch to a student visa?",
+                "When can I expect an answer for my student visa switch application?",
+                "Tell me the expected processing time for changing to a student visa."
+            ],
+            "responses": [
+                "A decision will usually be made within 8 weeks. You may be able to pay to get a faster decision -  you’ll be told if you can when you apply."
+            ],
+            "tag": "StudentVisa_SwitchDecisionTime"
+        },
+        {
+            "patterns": [
+                "What happens after I apply to switch to a student visa?",
+                "What should I do after applying for a student visa switch?",
+                "What are the next steps after submitting my student visa switch application?",
+                "I've applied to switch to a student visa. What now?",
+                "After sending in my application to switch to a student visa, what do I do next?",
+                "I've submitted my student visa switch application; what's the procedure following this?",
+                "What can I expect post-application for a student visa switch?",
+                "Once I've applied for a student visa switch, what comes next?",
+                "What processes follow after applying to change to a student visa?",
+                "I've done the application for switching to a student visa, what should I anticipate next?"
+            ],
+            "responses": [
+                "You’ll be contacted if your application is complex and will take longer, for example because: your supporting documents need to be verified you need to attend an interview of your personal circumstances (for example if you have a criminal conviction) If you need to change something in your application after you’ve sent it contact UK Visas and Immigration ( UKVI ) . You can ask to withdraw your application by contacting UKVI . Your fee will only be refunded if UKVI has not started processing your application."
+            ],
+            "tag": "StudentVisa_SwitchAfterApplication"
+        },
+        {
+            "patterns": [
+                "What happens if my application to switch to a student visa is successful?",
+                "What should I do if I successfully switch to a student visa?",
+                "My application to switch to a student visa was successful. What are the next steps?",
+                "I've successfully switched to a student visa. What now?",
+                "Now that my student visa switch application has been approved, what should I do?",
+                "What are the obligations and steps after a successful switch to a student visa?",
+                "What comes next after getting approval for my student visa switch?",
+                "Having successfully changed to a student visa, what do I need to be aware of or do?",
+                "What procedures or rules should I follow post-successful student visa switch?",
+                "I got approved for a student visa switch; what's the subsequent procedure or guidelines?",
+                "What happens after my student visa switch application is successful?"
+            ],
+            "responses": [
+                "If your application is successful, you’ll get either: a biometric residence permit - if you gave your biometric information at a UKVCAS centre a digital immigration status which you can view and prove online - if you used the ‘UK Immigration: ID Check’ app"
+            ],
+            "tag": "StudentVisa_SwitchApplicationSuccess"
+        }
+    ]
+}
