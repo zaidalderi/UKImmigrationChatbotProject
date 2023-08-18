@@ -2,6 +2,12 @@
 
 Welcome to the repository for the UK Immigration Chatbot, a Masters Project dedicated to providing information and guidance on UK Immigration rules.
 
+## Prerequisites
+
+Before running the chatbot, ensure the following resources are available:
+
+- **GloVe Embeddings**: Download the `glove.42B.300d.zip` file which contains the necessary embeddings. It can be [downloaded here](https://nlp.stanford.edu/data/glove.42B.300d.zip). Make sure to extract the contents to the appropriate directory so that the chatbot can access it.
+
 ## Repository Contents
 
 This repository contains all the essential files required to run the chatbot:
