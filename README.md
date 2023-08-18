@@ -12,7 +12,7 @@ Before running the chatbot, ensure the following resources are available:
 
 This repository contains all the essential files required to run the chatbot:
 
-- **chatland.html**: This is the landing page of the chatbot, serving as the primary entry point for users.
+- **chatbotLandingPage.html**: This is the landing page of the chatbot, serving as the primary entry point for users.
   
 - **intentClassificationBestModel.h5**: A trained deep learning model responsible for classifying user inputs to understand their intent.
   
@@ -29,8 +29,8 @@ This repository contains all the essential files required to run the chatbot:
 To begin using the UK Immigration Chatbot:
 
 1. Clone this repository to your local machine.
-2. Ensure all dependencies are installed (list any dependencies if necessary).
+2. Ensure all dependencies are installed.
 3. Run the `server.py` script to start the backend server.
-4. Open the `chatland.html` file in a web browser to access and interact with the chatbot.
+4. Open the `chatbotLandingPage.html` file in a web browser to access and interact with the chatbot.
 
 Thank you for visiting the UK Immigration Chatbot project repository!
