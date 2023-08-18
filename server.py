@@ -10,9 +10,13 @@ from tensorflow.keras.models import load_model
 import pickle
 import random
 
-# Load the pre-trained word embeddings from the pickle file
-with open('embeddings_index.pkl', 'rb') as f:
-    embeddings_index = pickle.load(f)
+# Load the pre-trained word embeddings from the glove file
+embeddings_index = {}
+with open('glove.42B.300d.txt') as f:
+    for line in f:
+        word, coefs = line.split(maxsplit=1)
+        coefs = np.fromstring(coefs, "f", sep=" ")
+        embeddings_index[word] = coefs
 
 # Load predefined bot intents and their patterns/responses
 with open('intentsFile.json', 'r') as f:
