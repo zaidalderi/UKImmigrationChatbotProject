@@ -16,6 +16,8 @@ This repository contains all the essential files required to run the chatbot:
   
 - **webScrapingScript.py**: A script dedicated to scraping the UK Government website. It fetches immigration rules and structures them into a comprehensive JSON file for the chatbot to utilize.
 
+- **ImmigrationChatbotIntentClassification.ipynb**: A Jupyter Notebook that details the entire process of data cleaning, preprocessing of the `intentsFile.json`, and training a Bi-LSTM neural network for intent classification.
+
 ## Getting Started
 
 To begin using the UK Immigration Chatbot:
