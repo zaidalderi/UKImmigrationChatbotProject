@@ -81,59 +81,6 @@ def get_response(predicted_intent):
             return intent['responses']
 
         
-grettings_patterns = [
-        "hi there",
-        "hello",
-        "hey",
-        "good day",
-        "greetings",
-        "hi how can you help",
-        "hello im new here",
-        "hey what can you do",
-        "good morning",
-        "good evening",
-        "hello there"
-]
-
-greetings_responses = [
-        "hello how can i assist you today",
-        "hi there what can i help you with",
-        "greetings how may i be of service",
-        "hey let me know if you have any questions",
-        "good day how can i support you",
-        "welcome feel free to ask anything",
-        "hi let me know how i can be of help",
-        "hello im here to assist what do you need",
-        "good to see you how can i assist",
-        "welcome im here to help what would you like to know"
-]
-
-farewell_patterns = [
-        "bye",
-        "goodbye",
-        "see you later",
-        "thanks for the help",
-        "thank you",
-        "catch you later",
-        "im leaving now",
-        "got to go",
-        "its time for me to go",
-        "farewell"
-]
-
-farwell_responses = [
-        "goodbye take care",
-        "farewell until next time",
-        "see you later have a great day",
-        "you're welcome take care",
-        "you're welcome anytime",
-        "catch you later have a good one",
-        "bye for now stay safe",
-        "safe travels until next time",
-        "take care and see you soon",
-        "wishing you all the best farewell"
-]
-        
 app = Flask(__name__)
 CORS(app)  # Handle CORS issues for front-end to back-end communication
 
@@ -141,19 +88,11 @@ CORS(app)  # Handle CORS issues for front-end to back-end communication
 def predict():
     """Handle incoming user messages and respond based on intent."""
     user_input = request.json['message']
-
-    # Check if the user's input matches a greeting or farewell pattern
-    if user_input.lower() in grettings_patterns:
-        response = random.choice(greetings_responses)
-        return jsonify({"response": response})
-    elif user_input.lower() in farewell_patterns:
-        response = random.choice(farwell_responses)
-        return jsonify({"response": response})
-    else:
-        # Classify and respond to other user inputs
-        predicted_intent = classify_intent(user_input)
-        response = get_response(predicted_intent)
-        return jsonify({"response": response[0]})
+    
+    # Classify and respond to other user inputs
+    predicted_intent = classify_intent(user_input)
+    response = get_response(predicted_intent)
+    return jsonify({"response": response[0]})
 
 if __name__ == '__main__':
     app.run(debug=True)
